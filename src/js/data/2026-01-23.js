@@ -1,5 +1,5 @@
 // dataSetVersion = "2019-11-26"; // Change this when creating a new data set version. YYYY-MM-DD format.
-dataSetVersion = "2025-12-10";
+dataSetVersion = "2026-01-23";
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -30,6 +30,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "Hirogaru Sky! Pretty Cure", key: "HiroSky" },
 	  { name: "Wonderful Pretty Cure!", key: "Won" },
 	  { name: "Kimi to Idol Pretty Cure♪", key: "Kimi" },
+	  { name: "Meitantei Pretty Cure! ", key: "SD" },
     ]
   },
   {name: "Filter by Color",
@@ -57,7 +58,7 @@ dataSet[dataSetVersion].options = [
   },
   {name: "Leads only",
 	key: "notlead",
-	tooltip: "Removes all characters except the lead cures of each season. Includes Black and Sky.",
+	tooltip: "Makes the sorter only sort lead Cures, helpful if you want to sort seasons",
 	checked: false
   },
 ];
@@ -923,6 +924,45 @@ dataSet[dataSetVersion].characterData = [
       color: [ "black" ],
 	  notlead: true,
 	  spoiler: true
+    }
+  },
+  {
+    name: "Cure Answer",
+    img: "t5qMz5sh.png",
+    opts: {
+      series: [ "SD" ],
+      color: [ "purple" ],
+	  human: true,
+    }
+  },
+  {
+    name: "Cure Mystique",
+    img: "hvZwct50.png",
+    opts: {
+      series: [ "SD" ],
+      color: [ "pink" ],
+	  human: true,
+	  notlead: true
+    }
+  },
+  {
+    name: "Cure Eclair",
+    img: "Nw6JWAVn.png",
+    opts: {
+      series: [ "SD"],
+      color: [ "blue" ],
+	  human: true,
+	  notlead: true
+    }
+  },
+  {
+    name: "Cure Arcana Shadow",
+    img: "GAIDLjsE.png",
+    opts: {
+      series: [ "SD" ],
+      color: [ "black" ],
+	  human: true,
+	  notlead: true
     }
   },
 ];
