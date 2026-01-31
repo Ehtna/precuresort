@@ -950,7 +950,7 @@ dataSet[dataSetVersion].characterData = [
     img: "Nw6JWAVn.png",
     opts: {
       series: [ "SD"],
-      color: [ "blue" ],
+      color: [ "green" ],
 	  human: true,
 	  notlead: true
     }
